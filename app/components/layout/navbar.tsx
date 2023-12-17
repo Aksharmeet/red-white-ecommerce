@@ -8,11 +8,11 @@ import Link from 'next/link'
 const navigation = [
 	{
 		name: 'Home',
-		route: '/',
+		href: '/',
 	},
 	{
 		name: 'Collection',
-		route: '/products',
+		href: '/products',
 	},
 ]
 
@@ -38,7 +38,7 @@ const Navbar = () => {
 						{/* Search */}
 						<div className='flex gap-4'>
 							{navigation.map((link) => (
-								<Link href={link.route} key={link.route} className='text-sm text-primary-text font-medium hover:text-primary'>
+								<Link href={link.href} key={link.href} className='text-sm text-primary-text font-medium hover:text-primary'>
 									{link.name}
 								</Link>
 							))}
