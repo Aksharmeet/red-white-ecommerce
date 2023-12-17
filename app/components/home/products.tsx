@@ -4,14 +4,14 @@ import Link from 'next/link'
 
 const Products = () => {
 	return (
-		<section aria-labelledby='favorites-heading'>
+		<section>
 			<div className='mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8'>
 				<div className='sm:flex sm:items-baseline sm:justify-between'>
-					<h2 id='favorites-heading' className='text-2xl font-bold tracking-tight text-gray-900'>
-						Our Favorites
+					<h2 id='favorites-heading' className='text-4xl font-bold tracking-tight text-gray-900'>
+						Our Collection
 					</h2>
 					<Link href='/collection' className='hidden text-sm font-semibold text-primary hover:opacity-70 sm:block'>
-						Browse all favorites
+						Browse our collection
 						<span> &rarr;</span>
 					</Link>
 				</div>
