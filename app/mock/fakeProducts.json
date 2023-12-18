@@ -1,0 +1,272 @@
+[
+    {
+        "id": "1",
+        "name": "Classic Black Leather Jacket",
+        "price": 99.99,
+        "productMaterial": "Leather",
+        "productDescription": "A timeless black leather jacket for a stylish and edgy look.",
+        "href": "/classic-black-leather-jacket",
+        "thumbnail": "https://images.unsplash.com/photo-1603960098814-684d00219f7b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBqYWNrZXR8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Classic Black Leather Jacket"
+    },
+    {
+        "id": "2",
+        "name": "Floral Print Sundress",
+        "price": 49.99,
+        "productMaterial": "Cotton",
+        "productDescription": "A vibrant floral print sundress perfect for a sunny day.",
+        "href": "/floral-print-sundress",
+        "thumbnail": "https://images.unsplash.com/photo-1633370901173-0c18b225edbb?q=80&w=1676&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageAlt": "Floral Print Sundress"
+    },
+    {
+        "id": "3",
+        "name": "Vintage Denim Jeans",
+        "price": 69.99,
+        "productMaterial": "Denim",
+        "productDescription": "Classic vintage denim jeans for a casual and comfortable look.",
+        "href": "/vintage-denim-jeans",
+        "thumbnail": "https://images.pexels.com/photos/19461559/pexels-photo-19461559/free-photo-of-model-in-a-navy-blue-printed-hoodie-and-faded-black-denim-cargo-pants-leaning-on-a-wooden-stool.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "imageAlt": "Vintage Denim Jeans"
+    },
+    {
+        "id": "4",
+        "name": "Elegant Black Cocktail Dress",
+        "price": 79.99,
+        "productMaterial": "Silk",
+        "productDescription": "An elegant black cocktail dress perfect for special occasions.",
+        "href": "/black-cocktail-dress",
+        "thumbnail": "https://images.pexels.com/photos/19471540/pexels-photo-19471540/free-photo-of-woman-in-red-skirt-spotted-shirt-and-fedora-hat.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "imageAlt": "Elegant Black Cocktail Dress"
+    },
+    {
+        "id": "5",
+        "name": "Casual Striped T-shirt",
+        "price": 19.99,
+        "productMaterial": "Cotton",
+        "productDescription": "A comfortable and stylish striped T-shirt for a relaxed look.",
+        "href": "/striped-tshirt",
+        "thumbnail": "https://images.pexels.com/photos/19451307/pexels-photo-19451307/free-photo-of-young-woman-in-a-white-striped-sweater-and-pleated-mini-skirt-looking-out-the-window.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "imageAlt": "Casual Striped T-shirt"
+    },
+    {
+        "id": "6",
+        "name": "Formal Business Suit",
+        "price": 129.99,
+        "productMaterial": "Wool Blend",
+        "productDescription": "A sophisticated formal business suit for professional occasions.",
+        "href": "/formal-business-suit",
+        "thumbnail": "https://images.unsplash.com/photo-1605664042212-73d09aa18a96?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVzaW5lc3MlMjBzdWl0fGVufDB8fDB8fHww",
+        "imageAlt": "Formal Business Suit"
+    },
+    {
+        "id": "7",
+        "name": "Bohemian Maxi Skirt",
+        "price": 59.99,
+        "productMaterial": "Chiffon",
+        "productDescription": "A flowy and bohemian-inspired maxi skirt for a relaxed and chic style.",
+        "href": "/bohemian-maxi-skirt",
+        "thumbnail": "https://images.unsplash.com/photo-1551180452-cc3ca222cdfb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGJvaGVtaWFuJTIwbWF4aSUyMHNraXJ0fGVufDB8fDB8fHww",
+        "imageAlt": "Bohemian Maxi Skirt"
+    },
+    {
+        "id": "8",
+        "name": "Sporty Hooded Sweatshirt",
+        "price": 34.99,
+        "productMaterial": "Fleece",
+        "productDescription": "A comfortable and sporty hooded sweatshirt for casual and active wear.",
+        "href": "/sporty-sweatshirt",
+        "thumbnail": "https://images.pexels.com/photos/19452876/pexels-photo-19452876/free-photo-of-bearded-man-in-black-beanie-and-sweatshirt.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "imageAlt": "Sporty Hooded Sweatshirt"
+    },
+    {
+        "id": "9",
+        "name": "Printed Silk Scarf",
+        "price": 24.99,
+        "productMaterial": "Silk",
+        "productDescription": "A stylish printed silk scarf to add a touch of elegance to any outfit.",
+        "href": "/printed-silk-scarf",
+        "thumbnail": "https://images.unsplash.com/photo-1513089176717-55db930c2e2a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJpbnRlZCUyMHNpbGslMjBzY2FyZnxlbnwwfHwwfHx8MA%3D%3D",
+        "imageAlt": "Printed Silk Scarf"
+    },
+    {
+        "id": "10",
+        "name": "Retro Aviator Sunglasses",
+        "price": 29.99,
+        "productMaterial": "Metal",
+        "productDescription": "Retro aviator sunglasses for a timeless and cool look.",
+        "href": "/aviator-sunglasses",
+        "thumbnail": "https://images.unsplash.com/photo-1567473810954-507d59716c25?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZpYXRvciUyMHN1bmdsYXNzZXN8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Retro Aviator Sunglasses"
+    },
+    {
+        "id": "11",
+        "name": "Urban Street Sneakers",
+        "price": 49.99,
+        "productMaterial": "Canvas",
+        "productDescription": "Stylish urban street sneakers for a trendy and comfortable stride.",
+        "href": "/urban-sneakers",
+        "thumbnail": "https://images.unsplash.com/photo-1517438476312-10d79c077509?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFVyYmFuJTIwU3RyZWV0JTIwU25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Urban Street Sneakers"
+    },
+    {
+        "id": "12",
+        "name": "Chic Leather Handbag",
+        "price": 89.99,
+        "productMaterial": "Leather",
+        "productDescription": "A chic leather handbag for a sophisticated and organized style.",
+        "href": "/leather-handbag",
+        "thumbnail": "https://images.unsplash.com/photo-1682745230951-8a5aa9a474a0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGxlYXRoZXIlMjBoYW5kYmFnfGVufDB8fDB8fHww",
+        "imageAlt": "Chic Leather Handbag"
+    },
+    {
+        "id": "13",
+        "name": "Boho-Chic Fringe Vest",
+        "price": 39.99,
+        "productMaterial": "Suede",
+        "productDescription": "A boho-chic fringe vest to add a free-spirited touch to your outfit.",
+        "href": "/boho-fringe-vest",
+        "thumbnail": "https://images.unsplash.com/photo-1548389995-fbd3151a501f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGZyaW5nZSUyMHZlc3R8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Boho-Chic Fringe Vest"
+    },
+    {
+        "id": "14",
+        "name": "Printed Yoga Leggings",
+        "price": 24.99,
+        "productMaterial": "Spandex Blend",
+        "productDescription": "Colorful printed yoga leggings for a stylish and comfortable workout.",
+        "href": "/printed-yoga-leggings",
+        "thumbnail": "https://images.unsplash.com/photo-1596641211273-938aeaf926a9?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHlvZ2ElMjBsZWdnaW5nc3xlbnwwfHwwfHx8MA%3D%3D",
+        "imageAlt": "Printed Yoga Leggings"
+    },
+    {
+        "id": "15",
+        "name": "Smart Casual Watch",
+        "price": 59.99,
+        "productMaterial": "Stainless Steel",
+        "productDescription": "A smart casual watch to elevate your wristwear game.",
+        "href": "/smart-casual-watch",
+        "thumbnail": "https://images.unsplash.com/photo-1603394151492-5e9b974b090b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FzdWFsJTIwd2F0Y2h8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Smart Casual Watch"
+    },
+    {
+        "id": "16",
+        "name": "Classic Fedora Hat",
+        "price": 29.99,
+        "productMaterial": "Wool",
+        "productDescription": "A classic fedora hat to add a touch of sophistication to your look.",
+        "href": "/classic-fedora-hat",
+        "thumbnail": "https://images.unsplash.com/photo-1520366914631-d250fd86eed2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVkb3JhJTIwaGF0fGVufDB8fDB8fHww",
+        "imageAlt": "Classic Fedora Hat"
+    },
+    {
+        "id": "17",
+        "name": "Vintage Leather Backpack",
+        "price": 79.99,
+        "productMaterial": "Leather",
+        "productDescription": "A vintage-inspired leather backpack for a stylish and practical accessory.",
+        "href": "/vintage-leather-backpack",
+        "thumbnail": "https://images.unsplash.com/photo-1549943872-f7ff0b2b51be?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhdGhlciUyMGJhY2twYWNrfGVufDB8fDB8fHww",
+        "imageAlt": "Vintage Leather Backpack"
+    },
+    {
+        "id": "18",
+        "name": "Cropped Denim Jacket",
+        "price": 49.99,
+        "productMaterial": "Denim",
+        "productDescription": "A trendy cropped denim jacket to elevate your casual style.",
+        "href": "/cropped-denim-jacket",
+        "thumbnail": "https://images.pexels.com/photos/19456424/pexels-photo-19456424/free-photo-of-portrait-of-a-young-man-smiling.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "imageAlt": "Cropped Denim Jacket"
+    },
+    {
+        "id": "19",
+        "name": "Lace-up Ankle Boots",
+        "price": 69.99,
+        "productMaterial": "Leather",
+        "productDescription": "Stylish lace-up ankle boots for a fashionable and versatile footwear choice.",
+        "href": "/lace-up-boots",
+        "thumbnail": "https://images.unsplash.com/photo-1515564242578-bbea07d21cbd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFjZSUyMHVwJTIwYm9vdHN8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Lace-up Ankle Boots"
+    },
+    {
+        "id": "20",
+        "name": "Statement Earrings Set",
+        "price": 19.99,
+        "productMaterial": "Metal",
+        "productDescription": "A set of statement earrings to enhance your accessory collection.",
+        "href": "/statement-earrings",
+        "thumbnail": "https://images.unsplash.com/photo-1610213665246-eb2df074f8e6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RhdGVtZW50JTIwZWFycmluZ3N8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Statement Earrings Set"
+    },
+    {
+        "id": "21",
+        "name": "Quilted Crossbody Bag",
+        "price": 39.99,
+        "productMaterial": "Synthetic Leather",
+        "productDescription": "A quilted crossbody bag for a trendy and compact accessory option.",
+        "href": "/quilted-crossbody-bag",
+        "thumbnail": "https://images.unsplash.com/photo-1511405946472-a37e3b5ccd47?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGNyb3NzYm9keSUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+        "imageAlt": "Quilted Crossbody Bag"
+    },
+    {
+        "id": "22",
+        "name": "Graphic Print Sweatshirt",
+        "price": 29.99,
+        "productMaterial": "Cotton Blend",
+        "productDescription": "A comfortable graphic print sweatshirt to express your unique style.",
+        "href": "/graphic-sweatshirt",
+        "thumbnail": "https://images.unsplash.com/photo-1644952327941-636c24be329b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3JhcGhpYyUyMHN3ZWF0c2hpcnR8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Graphic Print Sweatshirt"
+    },
+    {
+        "id": "23",
+        "name": "Trendy Wide-Leg Trousers",
+        "price": 49.99,
+        "productMaterial": "Polyester",
+        "productDescription": "Stylish wide-leg trousers for a fashionable and comfortable ensemble.",
+        "href": "/wide-leg-trousers",
+        "thumbnail": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lkZSUyMGxlZyUyMHRyb3VzZXJzfGVufDB8fDB8fHww",
+        "imageAlt": "Trendy Wide-Leg Trousers"
+    },
+    {
+        "id": "24",
+        "name": "Casual Striped Jumpsuit",
+        "price": 59.99,
+        "productMaterial": "Cotton",
+        "productDescription": "A comfortable and chic striped jumpsuit for casual yet trendy occasions.",
+        "href": "/striped-jumpsuit",
+        "thumbnail": "https://images.unsplash.com/photo-1521265475587-4dba6b215a4a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHN0cmlwZWQlMjBqdW1wc3VpdHxlbnwwfHwwfHx8MA%3D%3D",
+        "imageAlt": "Casual Striped Jumpsuit"
+    },
+    {
+        "id": "25",
+        "name": "Ruffled Off-Shoulder Blouse",
+        "price": 39.99,
+        "productMaterial": "Chiffon",
+        "productDescription": "A stylish ruffled off-shoulder blouse for a feminine and trendy look.",
+        "href": "/off-shoulder-blouse",
+        "thumbnail": "https://images.unsplash.com/photo-1518640190964-e9f7a8b50e68?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmJTIwc2hvdWxkZXIlMjBibG91c2V8ZW58MHx8MHx8fDA%3D",
+        "imageAlt": "Ruffled Off-Shoulder Blouse"
+    },
+    {
+        "id": "26",
+        "name": "Patterned Silk Kimono",
+        "price": 79.99,
+        "productMaterial": "Silk",
+        "productDescription": "A luxurious patterned silk kimono for an elegant and comfortable loungewear.",
+        "href": "/silk-kimono",
+        "thumbnail": "https://images.unsplash.com/photo-1597533456455-39defa5bf390?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2lsayUyMGtpbW9ub3xlbnwwfHwwfHx8MA%3D%3D",
+        "imageAlt": "Patterned Silk Kimono"
+    },
+    {
+        "id": "27",
+        "name": "Denim Overall Dress",
+        "price": 54.99,
+        "productMaterial": "Denim",
+        "productDescription": "A playful denim overall dress for a cute and casual outfit.",
+        "href": "/denim-overall-dress",
+        "thumbnail": "hhttps://images.unsplash.com/photo-1518097828717-f2a318488301?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGRlbmltJTIwb3ZlcmFsbCUyMGRyZXNzfGVufDB8fDB8fHww",
+        "imageAlt": "Denim Overall Dress"
+    }
+]

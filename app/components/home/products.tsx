@@ -1,6 +1,6 @@
-import { generateFakeProducts } from '@/utils/generateFakeProducts'
 import Image from 'next/image'
 import Link from 'next/link'
+import products from '@/app/mock/fakeProducts.json'
 
 const Products = () => {
 	return (
@@ -17,16 +17,16 @@ const Products = () => {
 				</div>
 
 				<div className='mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-10 sm:gap-x-6 lg:gap-x-8'>
-					{generateFakeProducts(6).map((product) => (
+					{products.slice(0, 6).map((product) => (
 						<Link href={`/product${product.href}`} key={product.id} className='group relative'>
-							<div className=' w-full overflow-hidden rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-3 sm:h-auto'>
-								<Image src={product.thumbnail} alt={product.imageAlt} className='h-full w-full object-cover object-center' height={500} width={700} />
+							<div className=' w-full max-h-[500px] overflow-hidden rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-3 sm:h-auto'>
+								<Image src={product.thumbnail} alt={product.imageAlt} className='h-full w-full object-cover object-center' height={500} width={400} />
 							</div>
 							<h3 className='mt-4 text-base font-semibold text-gray-900'>
 								<span className='absolute inset-0' />
 								{product.name}
 							</h3>
-							<p className='mt-1 text-sm text-gray-500'>{product.price}</p>
+							<p className='mt-1 text-sm text-gray-500'>$ {product.price}</p>
 						</Link>
 					))}
 				</div>
