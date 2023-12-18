@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const footerNavigation = [
 	{ name: 'Home', href: '/' },
-	{ name: 'Collection', href: '/products' },
+	{ name: 'Collection', href: '/collection' },
 ]
 
 const Footer = () => {

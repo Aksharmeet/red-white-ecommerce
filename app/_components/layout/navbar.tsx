@@ -12,7 +12,7 @@ const navigation = [
 	},
 	{
 		name: 'Collection',
-		href: '/products',
+		href: '/collection',
 	},
 ]
 
