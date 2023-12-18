@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Product from '@/app/mock/fakeProduct'
 import products from '@/app/mock/fakeProducts.json'
 
 const Products = () => {
@@ -17,7 +18,7 @@ const Products = () => {
 				</div>
 
 				<div className='mt-6 grid grid-cols-1 gap-y-10 sm:grid-cols-3 sm:gap-y-10 sm:gap-x-6 lg:gap-x-8'>
-					{products.slice(0, 6).map((product) => (
+					{products.slice(0, 6).map((product: Product) => (
 						<Link href={`/product${product.href}`} key={product.id} className='group relative'>
 							<div className=' w-full max-h-[500px] overflow-hidden rounded-lg group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-3 sm:h-auto'>
 								<Image src={product.thumbnail} alt={product.imageAlt} className='h-full w-full object-cover object-center' height={500} width={400} />
