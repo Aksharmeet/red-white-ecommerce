@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Product from '@/app/mock/fakeProduct'
-import products from '@/app/mock/fakeProducts.json'
+import Product from '@/app/_mock/fakeProduct'
+import products from '@/app/_mock/fakeProducts.json'
 
 const Products = () => {
 	return (

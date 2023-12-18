@@ -1,6 +1,6 @@
 'use client'
 
-import ProductTs from '@/app/mock/fakeProduct'
+import ProductTs from '@/app/_mock/fakeProduct'
 import { ProductStore, useCartStore } from '@/store/productStore'
 import useStore from '@/store/useStore'
 

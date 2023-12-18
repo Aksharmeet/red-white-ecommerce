@@ -1,4 +1,4 @@
-import ProductTs from '@/app/mock/fakeProduct'
+import ProductTs from '@/app/_mock/fakeProduct'
 import Image from 'next/image'
 
 const ProductImage = ({ currentProduct }: { currentProduct: ProductTs }) => {

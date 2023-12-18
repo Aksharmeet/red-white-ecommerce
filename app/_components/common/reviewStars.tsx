@@ -1,4 +1,4 @@
-import ProductTs from '@/app/mock/fakeProduct'
+import ProductTs from '@/app/_mock/fakeProduct'
 import { StarIcon } from '@heroicons/react/24/solid'
 
 const ReviewStars = ({ currentProduct }: { currentProduct: ProductTs }) => {

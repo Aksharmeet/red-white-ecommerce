@@ -1,4 +1,4 @@
-import ProductTs from '@/app/mock/fakeProduct'
+import ProductTs from '@/app/_mock/fakeProduct'
 import CartButton from '../client-components/cartButton'
 import LikeButton from '../common/likeButton'
 import ReviewStars from '../common/reviewStars'

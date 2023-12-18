@@ -1,7 +1,7 @@
-import products from '@/app/mock/fakeProducts.json'
-import ProductTs from '@/app/mock/fakeProduct'
-import ProductInfo from '@/app/components/product-page/productInfo'
-import ProductImage from '@/app/components/product-page/productImage'
+import products from '@/app/_mock/fakeProducts.json'
+import ProductTs from '@/app/_mock/fakeProduct'
+import ProductInfo from '@/app/_components/product-page/productInfo'
+import ProductImage from '@/app/_components/product-page/productImage'
 
 const Product = ({ params }: { params: { slug: string } }) => {
 	const slug = params.slug
