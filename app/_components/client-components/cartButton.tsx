@@ -21,7 +21,18 @@ const CartButton = ({ currentProduct }: { currentProduct: ProductTs }) => {
 	const addedProduct = items.find((product) => product.id === currentProduct.id)
 
 	const addProduct = () => {
-		addItem({ count: 1, id: currentProduct.id })
+		addItem({
+			count: 1,
+			id: currentProduct.id,
+			name: currentProduct.name,
+			price: currentProduct.price,
+			productMaterial: currentProduct.productMaterial,
+			productDescription: currentProduct.productDescription,
+			href: currentProduct.href,
+			thumbnail: currentProduct.thumbnail,
+			imageAlt: currentProduct.imageAlt,
+			rating: currentProduct.rating,
+		})
 	}
 
 	const incrementProductCount = () => {

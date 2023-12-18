@@ -4,6 +4,14 @@ import { persist } from 'zustand/middleware'
 export type CartItem = {
 	id: string
 	count: number
+	name: string
+	price: number
+	productMaterial: string
+	productDescription: string
+	href: string
+	thumbnail: string
+	imageAlt: string
+	rating: number
 }
 
 type State = { items: CartItem[]; count: number }
