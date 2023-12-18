@@ -1,9 +1,10 @@
 'use client'
-import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 import Image from 'next/image'
 import logo from '@/public/assets/svg/logo.svg'
 import Link from 'next/link'
+import NavCart from '../client-components/navCart'
 
 const navigation = [
 	{
@@ -50,12 +51,7 @@ const Navbar = () => {
 						</div>
 
 						{/* Cart */}
-						<div className='flow-root ml-2 xl:ml-4'>
-							<Link href='/checkout' className='group -m-2 flex items-center p-2'>
-								<ShoppingBagIcon className='h-6 w-6 flex-shrink-0 text-primary-text group-hover:text-primary' />
-								<span className='ml-2 text-sm font-medium text-primary-text group-hover:text-primary'>0</span>
-							</Link>
-						</div>
+						<NavCart />
 					</div>
 				</div>
 			</div>

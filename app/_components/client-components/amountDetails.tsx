@@ -13,12 +13,7 @@ const AmountComponent = ({ title, amount }: { title: string; amount: string }) =
 const AmountDetails = () => {
 	const cartItems = useStore<ProductStore, ProductStore>(useCartStore, (state) => state)
 
-	if (!cartItems)
-		return (
-			<ul role='list' className='divide-y divide-gray-200'>
-				{/* */}
-			</ul>
-		)
+	if (!cartItems) return <></>
 
 	const { items } = cartItems
 
@@ -32,7 +27,7 @@ const AmountDetails = () => {
 
 	return (
 		<dl className='space-y-6 border-t border-gray-200 py-6 px-4 sm:px-6'>
-			<AmountComponent title='Subtotal' amount={`$ ${totalAmount()}`} />
+			<AmountComponent title='Subtotal' amount={`$ ${totalAmount().toFixed(2)}`} />
 			<AmountComponent title='Shipping' amount='$5.00' />
 			<AmountComponent title='Taxes' amount={`$ ${taxes(8).toFixed(2)}`} />
 

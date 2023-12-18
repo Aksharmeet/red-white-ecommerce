@@ -55,7 +55,7 @@ const ProductsOnCart = () => {
 
 							<div className='flex flex-1 items-end justify-between pt-2'>
 								<p className='mt-1 text-sm font-medium text-gray-900'>
-									$ {product.price * product.count}
+									$ {(product.price * product.count).toFixed(2)}
 									<span className='text-xs text-gray-500 ml-1'>
 										($ {product.price} x {product.count})
 									</span>
