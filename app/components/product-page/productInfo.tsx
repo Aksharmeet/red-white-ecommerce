@@ -21,7 +21,7 @@ const ProductInfo = ({ currentProduct }: { currentProduct: ProductTs }) => {
 			</div>
 			<form className='mt-6'>
 				<div className='mt-10 flex'>
-					<CartButton />
+					<CartButton currentProduct={currentProduct} />
 					<LikeButton />
 				</div>
 			</form>
